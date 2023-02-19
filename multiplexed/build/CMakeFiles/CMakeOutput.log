@@ -1,0 +1,836 @@
+The system is: Linux - 5.15.0-58-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80c08/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80c08.dir/build.make CMakeFiles/cmTC_80c08.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80c08.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_80c08.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFrageX.s
+GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3f6cb05d963ad324b8f9442822c95179
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80c08.dir/'
+ as -v --64 -o CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o /tmp/ccFrageX.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_80c08
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80c08.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o -o cmTC_80c08 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80c08' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80c08.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccokta1d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_80c08 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80c08' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80c08.'
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80c08/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80c08.dir/build.make CMakeFiles/cmTC_80c08.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80c08.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_80c08.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFrageX.s]
+  ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.3.0-1ubuntu1~22.04) version 11.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3f6cb05d963ad324b8f9442822c95179]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80c08.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o /tmp/ccFrageX.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_80c08]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80c08.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o -o cmTC_80c08 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.3.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-xKiWfi/gcc-11-11.3.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.3.0 (Ubuntu 11.3.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_80c08' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_80c08.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccokta1d.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_80c08 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccokta1d.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_80c08] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_80c08.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wall succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12700/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12700.dir/build.make CMakeFiles/cmTC_12700.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12700.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wall  -Wall -o CMakeFiles/cmTC_12700.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_12700
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12700.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_12700.dir/src.c.o -o cmTC_12700 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wextra succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b689/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7b689.dir/build.make CMakeFiles/cmTC_7b689.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b689.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wextra  -Wextra -o CMakeFiles/cmTC_7b689.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7b689
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b689.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7b689.dir/src.c.o -o cmTC_7b689 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wpedantic succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e274c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e274c.dir/build.make CMakeFiles/cmTC_e274c.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e274c.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wpedantic  -Wpedantic -o CMakeFiles/cmTC_e274c.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e274c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e274c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e274c.dir/src.c.o -o cmTC_e274c 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wshadow succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e8486/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e8486.dir/build.make CMakeFiles/cmTC_e8486.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8486.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wshadow  -Wshadow -o CMakeFiles/cmTC_e8486.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e8486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8486.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e8486.dir/src.c.o -o cmTC_e8486 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstrictoverflow=4 succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_42a5f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_42a5f.dir/build.make CMakeFiles/cmTC_42a5f.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42a5f.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wstrictoverflow=4  -Wstrict-overflow=4 -o CMakeFiles/cmTC_42a5f.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_42a5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42a5f.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_42a5f.dir/src.c.o -o cmTC_42a5f 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wswitchdefault succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3166f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3166f.dir/build.make CMakeFiles/cmTC_3166f.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3166f.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wswitchdefault  -Wswitch-default -o CMakeFiles/cmTC_3166f.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3166f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3166f.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_3166f.dir/src.c.o -o cmTC_3166f 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wswitchenum succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5cac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5cac.dir/build.make CMakeFiles/cmTC_e5cac.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5cac.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wswitchenum  -Wswitch-enum -o CMakeFiles/cmTC_e5cac.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e5cac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5cac.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e5cac.dir/src.c.o -o cmTC_e5cac 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wunused succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5bc8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5bc8a.dir/build.make CMakeFiles/cmTC_5bc8a.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bc8a.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wunused  -Wunused -o CMakeFiles/cmTC_5bc8a.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5bc8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bc8a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5bc8a.dir/src.c.o -o cmTC_5bc8a 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wunusedmacros succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35dba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35dba.dir/build.make CMakeFiles/cmTC_35dba.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35dba.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wunusedmacros  -Wunused-macros -o CMakeFiles/cmTC_35dba.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_35dba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35dba.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_35dba.dir/src.c.o -o cmTC_35dba 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wdatetime succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e81c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e81c.dir/build.make CMakeFiles/cmTC_1e81c.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e81c.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wdatetime  -Wdate-time -o CMakeFiles/cmTC_1e81c.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1e81c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e81c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1e81c.dir/src.c.o -o cmTC_1e81c 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Winvalidpch succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1fa9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a1fa9.dir/build.make CMakeFiles/cmTC_a1fa9.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1fa9.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Winvalidpch  -Winvalid-pch -o CMakeFiles/cmTC_a1fa9.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a1fa9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1fa9.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a1fa9.dir/src.c.o -o cmTC_a1fa9 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wmissingdeclarations succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86a50/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86a50.dir/build.make CMakeFiles/cmTC_86a50.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86a50.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wmissingdeclarations  -Wmissing-declarations -o CMakeFiles/cmTC_86a50.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_86a50
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86a50.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_86a50.dir/src.c.o -o cmTC_86a50 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wmissingincludedirs succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ccc9e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccc9e.dir/build.make CMakeFiles/cmTC_ccc9e.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ccc9e.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wmissingincludedirs  -Wmissing-include-dirs -o CMakeFiles/cmTC_ccc9e.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ccc9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccc9e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ccc9e.dir/src.c.o -o cmTC_ccc9e 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wmissingprototypes succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_587c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_587c9.dir/build.make CMakeFiles/cmTC_587c9.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_587c9.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wmissingprototypes  -Wmissing-prototypes -o CMakeFiles/cmTC_587c9.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_587c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_587c9.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_587c9.dir/src.c.o -o cmTC_587c9 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstrictprototypes succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_083ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_083ef.dir/build.make CMakeFiles/cmTC_083ef.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_083ef.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wstrictprototypes  -Wstrict-prototypes -o CMakeFiles/cmTC_083ef.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_083ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_083ef.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_083ef.dir/src.c.o -o cmTC_083ef 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wundef succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37a9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37a9a.dir/build.make CMakeFiles/cmTC_37a9a.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37a9a.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wundef  -Wundef -o CMakeFiles/cmTC_37a9a.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_37a9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37a9a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_37a9a.dir/src.c.o -o cmTC_37a9a 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wnulldereference succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54252/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54252.dir/build.make CMakeFiles/cmTC_54252.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54252.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wnulldereference  -Wnull-dereference -o CMakeFiles/cmTC_54252.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_54252
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54252.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_54252.dir/src.c.o -o cmTC_54252 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstackprotector succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cca6c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cca6c.dir/build.make CMakeFiles/cmTC_cca6c.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cca6c.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wstackprotector  -Wstack-protector -o CMakeFiles/cmTC_cca6c.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cca6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cca6c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cca6c.dir/src.c.o -o cmTC_cca6c 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wdoublepromotion succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a56c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a56c0.dir/build.make CMakeFiles/cmTC_a56c0.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a56c0.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wdoublepromotion  -Wdouble-promotion -o CMakeFiles/cmTC_a56c0.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a56c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a56c0.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a56c0.dir/src.c.o -o cmTC_a56c0 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wvla succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9f45f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f45f.dir/build.make CMakeFiles/cmTC_9f45f.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9f45f.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wvla  -Wvla -o CMakeFiles/cmTC_9f45f.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9f45f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f45f.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9f45f.dir/src.c.o -o cmTC_9f45f 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Walloca succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6594/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6594.dir/build.make CMakeFiles/cmTC_e6594.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6594.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Walloca  -Walloca -o CMakeFiles/cmTC_e6594.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e6594
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6594.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e6594.dir/src.c.o -o cmTC_e6594 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Woverlengthstrings succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0272c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0272c.dir/build.make CMakeFiles/cmTC_0272c.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0272c.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Woverlengthstrings  -Woverlength-strings -o CMakeFiles/cmTC_0272c.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0272c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0272c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_0272c.dir/src.c.o -o cmTC_0272c 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wdisabledoptimization succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3385d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3385d.dir/build.make CMakeFiles/cmTC_3385d.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3385d.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wdisabledoptimization  -Wdisabled-optimization -o CMakeFiles/cmTC_3385d.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3385d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3385d.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_3385d.dir/src.c.o -o cmTC_3385d 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Winline succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b723/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7b723.dir/build.make CMakeFiles/cmTC_7b723.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b723.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Winline  -Winline -o CMakeFiles/cmTC_7b723.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7b723
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b723.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7b723.dir/src.c.o -o cmTC_7b723 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wcastqual succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80d34/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80d34.dir/build.make CMakeFiles/cmTC_80d34.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80d34.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wcastqual  -Wcast-qual -o CMakeFiles/cmTC_80d34.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_80d34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80d34.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_80d34.dir/src.c.o -o cmTC_80d34 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wfloatequal succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29807/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29807.dir/build.make CMakeFiles/cmTC_29807.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29807.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wfloatequal  -Wfloat-equal -o CMakeFiles/cmTC_29807.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_29807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29807.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_29807.dir/src.c.o -o cmTC_29807 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformat=2 succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b4bcc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b4bcc.dir/build.make CMakeFiles/cmTC_b4bcc.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4bcc.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wformat=2  -Wformat=2 -o CMakeFiles/cmTC_b4bcc.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b4bcc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4bcc.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b4bcc.dir/src.c.o -o cmTC_b4bcc 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wfreenonheapobject succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0ad6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0ad6.dir/build.make CMakeFiles/cmTC_b0ad6.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0ad6.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wfreenonheapobject  -Wfree-nonheap-object -o CMakeFiles/cmTC_b0ad6.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b0ad6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0ad6.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b0ad6.dir/src.c.o -o cmTC_b0ad6 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wshiftoverflow succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb884/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb884.dir/build.make CMakeFiles/cmTC_eb884.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb884.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wshiftoverflow  -Wshift-overflow -o CMakeFiles/cmTC_eb884.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eb884
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb884.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_eb884.dir/src.c.o -o cmTC_eb884 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wwritestrings succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6c82/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6c82.dir/build.make CMakeFiles/cmTC_b6c82.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6c82.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wwritestrings  -Wwrite-strings -o CMakeFiles/cmTC_b6c82.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b6c82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c82.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b6c82.dir/src.c.o -o cmTC_b6c82 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wunsuffixedfloatconstants succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d37d0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d37d0.dir/build.make CMakeFiles/cmTC_d37d0.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d37d0.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wunsuffixedfloatconstants  -Wunsuffixed-float-constants -o CMakeFiles/cmTC_d37d0.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d37d0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d37d0.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d37d0.dir/src.c.o -o cmTC_d37d0 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Warithconversion succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66cc6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66cc6.dir/build.make CMakeFiles/cmTC_66cc6.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66cc6.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Warithconversion  -Warith-conversion -o CMakeFiles/cmTC_66cc6.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_66cc6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66cc6.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_66cc6.dir/src.c.o -o cmTC_66cc6 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wunsafeloopoptimizations succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_126d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_126d1.dir/build.make CMakeFiles/cmTC_126d1.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_126d1.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wunsafeloopoptimizations  -Wunsafe-loop-optimizations -o CMakeFiles/cmTC_126d1.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_126d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_126d1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_126d1.dir/src.c.o -o cmTC_126d1 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wvectoroperationperformance succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_855d1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_855d1.dir/build.make CMakeFiles/cmTC_855d1.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_855d1.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wvectoroperationperformance  -Wvector-operation-performance -o CMakeFiles/cmTC_855d1.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_855d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_855d1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_855d1.dir/src.c.o -o cmTC_855d1 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Walloczero succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_534ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_534ea.dir/build.make CMakeFiles/cmTC_534ea.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_534ea.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Walloczero  -Walloc-zero -o CMakeFiles/cmTC_534ea.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_534ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_534ea.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_534ea.dir/src.c.o -o cmTC_534ea 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wtrampolines succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d43da/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d43da.dir/build.make CMakeFiles/cmTC_d43da.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d43da.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wtrampolines  -Wtrampolines -o CMakeFiles/cmTC_d43da.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d43da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d43da.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d43da.dir/src.c.o -o cmTC_d43da 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wtsan succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a045/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a045.dir/build.make CMakeFiles/cmTC_5a045.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a045.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wtsan  -Wtsan -o CMakeFiles/cmTC_5a045.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5a045
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a045.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5a045.dir/src.c.o -o cmTC_5a045 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformatoverflow=2 succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52a9a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52a9a.dir/build.make CMakeFiles/cmTC_52a9a.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52a9a.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wformatoverflow=2  -Wformat-overflow=2 -o CMakeFiles/cmTC_52a9a.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_52a9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52a9a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_52a9a.dir/src.c.o -o cmTC_52a9a 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformatsignedness succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cbcfb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cbcfb.dir/build.make CMakeFiles/cmTC_cbcfb.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbcfb.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wformatsignedness  -Wformat-signedness -o CMakeFiles/cmTC_cbcfb.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cbcfb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbcfb.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cbcfb.dir/src.c.o -o cmTC_cbcfb 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wjumpmissesinit succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b793/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b793.dir/build.make CMakeFiles/cmTC_5b793.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b793.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wjumpmissesinit  -Wjump-misses-init -o CMakeFiles/cmTC_5b793.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5b793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b793.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5b793.dir/src.c.o -o cmTC_5b793 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformattruncation=2 succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7be6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7be6.dir/build.make CMakeFiles/cmTC_f7be6.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7be6.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wformattruncation=2  -Wformat-truncation=2 -o CMakeFiles/cmTC_f7be6.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f7be6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7be6.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f7be6.dir/src.c.o -o cmTC_f7be6 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

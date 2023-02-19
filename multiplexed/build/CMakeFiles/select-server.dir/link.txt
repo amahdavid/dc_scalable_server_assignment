@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/select-server.dir/src/main-select-server.c.o -o select-server  -Wl,-rpath,/usr/local/lib /usr/local/lib/libdc_error.so /usr/local/lib/libdc_env.so /usr/local/lib/libdc_c.so /usr/local/lib/libdc_posix.so -fsanitize=undefined 

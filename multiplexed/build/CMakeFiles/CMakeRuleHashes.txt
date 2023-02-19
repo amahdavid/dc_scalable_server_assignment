@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+f4494c5da41d74b6468e7c69d3c4d037 CMakeFiles/clang-tidy-client
+b0cb21a744635e3fb665322f7f211f78 CMakeFiles/clang-tidy-poll-server
+4fe873ff5fdb0c2251747dd5d1991b9d CMakeFiles/clang-tidy-select-server
+207460164fb0faa3eea89c15d3f9c5cf CMakeFiles/doxygen

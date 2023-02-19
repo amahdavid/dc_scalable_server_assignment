@@ -1,0 +1,9 @@
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/doxygen.dir
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/client.dir
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/clang-tidy-client.dir
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/select-server.dir
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/clang-tidy-select-server.dir
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/poll-server.dir
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/clang-tidy-poll-server.dir
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/edit_cache.dir
+/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/rebuild_cache.dir

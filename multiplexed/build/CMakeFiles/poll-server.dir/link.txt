@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/poll-server.dir/src/main-poll-server.c.o -o poll-server   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/local/lib/libdc_error.so /usr/local/lib/libdc_env.so /usr/local/lib/libdc_c.so /usr/local/lib/libdc_posix.so -fsanitize=undefined 

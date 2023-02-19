@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/client.dir/src/main-client.c.o -o client  -fsanitize=undefined 
