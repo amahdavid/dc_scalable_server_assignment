@@ -60,6 +60,17 @@ set(TEST_SOURCE_LIST
         )
 set(TEST_REQUIRED_LIBRARIES_LIST
         )
+set(CLIENT_SOURCE_MAIN
+        ${SOURCE_DIR}/load-tester.c
+        )
+set(SELECT_SERVER_HEADER_LIST
+        )
+set(SELECT_SERVER_REQUIRED_LIBRARIES_LIST
+        dc_error
+        dc_env
+        dc_c
+        dc_posix
+        )
 
 list(APPEND TEST_REQUIRED_LIBRARIES_LIST
         ${BINARY_REQUIRED_LIBRARIES_LIST}
