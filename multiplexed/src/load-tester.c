@@ -82,8 +82,6 @@ int main(int argc, char *argv[]) {
         // Wait for the thread to finish
         pthread_join(thread, NULL);
     }
-
-    // Exit the program
     return 0;
 }
 
