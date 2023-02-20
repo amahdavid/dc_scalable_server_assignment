@@ -894,3 +894,63 @@ gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multi
 
 Source file was:
 int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wstrictoverflow=4 succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9a3a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9a3a.dir/build.make CMakeFiles/cmTC_c9a3a.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9a3a.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wstrictoverflow=4  -Wstrict-overflow=4 -o CMakeFiles/cmTC_c9a3a.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c9a3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9a3a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c9a3a.dir/src.c.o -o cmTC_c9a3a 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformat=2 succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5a2b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5a2b.dir/build.make CMakeFiles/cmTC_c5a2b.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5a2b.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wformat=2  -Wformat=2 -o CMakeFiles/cmTC_c5a2b.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c5a2b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5a2b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c5a2b.dir/src.c.o -o cmTC_c5a2b 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformatoverflow=2 succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4be7a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4be7a.dir/build.make CMakeFiles/cmTC_4be7a.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4be7a.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wformatoverflow=2  -Wformat-overflow=2 -o CMakeFiles/cmTC_4be7a.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4be7a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4be7a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4be7a.dir/src.c.o -o cmTC_4be7a 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_Wformattruncation=2 succeeded with the following output:
+Change Dir: /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9a105/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9a105.dir/build.make CMakeFiles/cmTC_9a105.dir/build
+gmake[1]: Entering directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a105.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_Wformattruncation=2  -Wformat-truncation=2 -o CMakeFiles/cmTC_9a105.dir/src.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9a105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a105.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9a105.dir/src.c.o -o cmTC_9a105 
+gmake[1]: Leaving directory '/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }

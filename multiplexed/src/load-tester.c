@@ -10,8 +10,16 @@
 #include <dc_posix/dc_unistd.h>
 
 #define BUFFER_SIZE 1024
+#define NUM_THREADS 10
 
 void *test_thread(void *arg);
+
+//global variables
+char *server_ip;
+int server_port;
+char *data_file;
+int test_duration;
+time_t start_time;
 
 int main(int argc, char *argv[]) {
     // Check if all required arguments are provided
@@ -21,10 +29,16 @@ int main(int argc, char *argv[]) {
     }
 
     // Parse command line arguments
-    char *server_ip = argv[1];
-    int server_port = atoi(argv[2]);
-    char *data_file = argv[3];
-    int test_duration = atoi(argv[4]);
+    server_ip = argv[1];
+    server_port = atoi(argv[2]);
+    data_file = argv[3];
+    test_duration = atoi(argv[4]);
+
+    //checks if server port is valid
+    if (server_port < 1024 || server_port > 65535){
+        printf("Error: invalid server port number\n");
+        return -1;
+    }
 
     // Open the data file
     FILE *fp = fopen(data_file, "rb");
@@ -39,9 +53,26 @@ int main(int argc, char *argv[]) {
     fclose(fp);
 
     // Create an infinite loop that runs for the test duration
-    time_t start_time = time(NULL);
+    start_time = time(NULL);
     while (difftime(time(NULL), start_time) < test_duration) {
         // Create a thread to send data to the server
+
+        // chatgpt suggest we create a fixed number of threads to the server
+        /*pthread_t threads[NUM_THREADS];
+        for (int i = 0; i < NUM_THREADS; ++i) {
+            if (pthread_create(&threads[i], NULL, test_thread, (void *)fp) != 0){
+                perror("Unable to create test thread");
+                fclose(fp);
+                return -1;
+            }
+        }
+        // wait for all threads to finish
+        for (int i = 0; i < NUM_THREADS; ++i) {
+            pthread_join(threads[i], NULL);
+        }
+
+        fclose(fp);*/
+
         pthread_t thread;
         if (pthread_create(&thread, NULL, test_thread, (void *) buffer) != 0) {
             perror("Unable to create test thread");
@@ -101,8 +132,7 @@ void *test_thread(void *arg) {
     }
 
     // Close the socket
-    // Close the socket
-    dc_close(sockfd);
+    close(sockfd);
 
     // Log the time taken to send and receive data to a CSV file
     FILE *fp = fopen("results.csv", "a");
