@@ -79,7 +79,6 @@ int main(int argc, char *argv[]) {
             return -1;
         }
 
-        // Wait for the thread to finish
         pthread_join(thread, NULL);
     }
     return 0;
@@ -129,7 +128,6 @@ void *test_thread(void *arg) {
         pthread_exit(NULL);
     }
 
-    // Close the socket
     close(sockfd);
 
     // Log the time taken to send and receive data to a CSV file
@@ -144,7 +142,5 @@ void *test_thread(void *arg) {
     fprintf(fp, "%.0f,%ld\n", time_taken, bytes_recv);
 
     fclose(fp);
-
-    // Exit the thread
     pthread_exit(NULL);
 }
