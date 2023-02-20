@@ -240,17 +240,24 @@ static void handle_client_data(struct dc_env *env, struct dc_error *err, int *cl
                 continue;
             }
 
+            int word_count = 0;
             printf("Read from client\n");
             dc_write(env, err, STDOUT_FILENO, buffer, bytes_read);
 
             for(int j = 0; j < bytes_read; j++)
             {
-                buffer[j] = (char)dc_toupper(env, buffer[j]);
+                //buffer[j] = (char)dc_toupper(env, buffer[j]);
+                if (buffer[j] == ' ' || buffer[j] == '\n' || buffer[j] == '\t')
+                    word_count++;
             }
 
             printf("Writing to client\n");
+            printf("word count: %d\n", word_count);
+            char count_buffer[BUFFER_SIZE];
+            snprintf(count_buffer, BUFFER_SIZE, "%d", word_count);
             dc_write(env, err, STDOUT_FILENO, buffer, bytes_read);
             dc_write(env, err, client_sockets[i], buffer, bytes_read);
+            dc_write(env, err, client_sockets[i], &word_count, sizeof(word_count));
         }
     }
 }

@@ -69,28 +69,28 @@ include CMakeFiles/client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/client.dir/flags.make
 
-CMakeFiles/client.dir/src/main-client.c.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/src/main-client.c.o: ../src/main-client.c
-CMakeFiles/client.dir/src/main-client.c.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/client.dir/src/main-client.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/src/main-client.c.o -MF CMakeFiles/client.dir/src/main-client.c.o.d -o CMakeFiles/client.dir/src/main-client.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/src/main-client.c
+CMakeFiles/client.dir/src/load-tester.c.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/load-tester.c.o: ../src/load-tester.c
+CMakeFiles/client.dir/src/load-tester.c.o: CMakeFiles/client.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/client.dir/src/load-tester.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/client.dir/src/load-tester.c.o -MF CMakeFiles/client.dir/src/load-tester.c.o.d -o CMakeFiles/client.dir/src/load-tester.c.o -c /home/chika/Documents/comp4981/04-multiplexed/multiplexed/src/load-tester.c
 
-CMakeFiles/client.dir/src/main-client.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/src/main-client.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chika/Documents/comp4981/04-multiplexed/multiplexed/src/main-client.c > CMakeFiles/client.dir/src/main-client.c.i
+CMakeFiles/client.dir/src/load-tester.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/client.dir/src/load-tester.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/chika/Documents/comp4981/04-multiplexed/multiplexed/src/load-tester.c > CMakeFiles/client.dir/src/load-tester.c.i
 
-CMakeFiles/client.dir/src/main-client.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/src/main-client.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chika/Documents/comp4981/04-multiplexed/multiplexed/src/main-client.c -o CMakeFiles/client.dir/src/main-client.c.s
+CMakeFiles/client.dir/src/load-tester.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/client.dir/src/load-tester.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/chika/Documents/comp4981/04-multiplexed/multiplexed/src/load-tester.c -o CMakeFiles/client.dir/src/load-tester.c.s
 
 # Object files for target client
 client_OBJECTS = \
-"CMakeFiles/client.dir/src/main-client.c.o"
+"CMakeFiles/client.dir/src/load-tester.c.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
-client: CMakeFiles/client.dir/src/main-client.c.o
+client: CMakeFiles/client.dir/src/load-tester.c.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/chika/Documents/comp4981/04-multiplexed/multiplexed/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable client"

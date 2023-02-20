@@ -207,29 +207,29 @@ clang-tidy-poll-server/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clang-tidy-poll-server.dir/build.make CMakeFiles/clang-tidy-poll-server.dir/build
 .PHONY : clang-tidy-poll-server/fast
 
-src/main-client.o: src/main-client.c.o
-.PHONY : src/main-client.o
+src/load-tester.o: src/load-tester.c.o
+.PHONY : src/load-tester.o
 
 # target to build an object file
-src/main-client.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/main-client.c.o
-.PHONY : src/main-client.c.o
+src/load-tester.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/load-tester.c.o
+.PHONY : src/load-tester.c.o
 
-src/main-client.i: src/main-client.c.i
-.PHONY : src/main-client.i
+src/load-tester.i: src/load-tester.c.i
+.PHONY : src/load-tester.i
 
 # target to preprocess a source file
-src/main-client.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/main-client.c.i
-.PHONY : src/main-client.c.i
+src/load-tester.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/load-tester.c.i
+.PHONY : src/load-tester.c.i
 
-src/main-client.s: src/main-client.c.s
-.PHONY : src/main-client.s
+src/load-tester.s: src/load-tester.c.s
+.PHONY : src/load-tester.s
 
 # target to generate assembly for a file
-src/main-client.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/main-client.c.s
-.PHONY : src/main-client.c.s
+src/load-tester.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/load-tester.c.s
+.PHONY : src/load-tester.c.s
 
 src/main-poll-server.o: src/main-poll-server.c.o
 .PHONY : src/main-poll-server.o
@@ -294,9 +294,9 @@ help:
 	@echo "... client"
 	@echo "... poll-server"
 	@echo "... select-server"
-	@echo "... src/main-client.o"
-	@echo "... src/main-client.i"
-	@echo "... src/main-client.s"
+	@echo "... src/load-tester.o"
+	@echo "... src/load-tester.i"
+	@echo "... src/load-tester.s"
 	@echo "... src/main-poll-server.o"
 	@echo "... src/main-poll-server.i"
 	@echo "... src/main-poll-server.s"
