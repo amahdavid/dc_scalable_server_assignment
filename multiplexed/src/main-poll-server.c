@@ -146,6 +146,7 @@ static void run_server(struct dc_env *env, struct dc_error *err, int listener, i
         // TODO what do we do if poll has an error?
         // At least we should print out a message
         // Should really log it
+        // we could make a csv file for the log and other than that just prints out the error_msg
         dc_error_reset(err);
     }
 }
