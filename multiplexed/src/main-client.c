@@ -70,14 +70,6 @@ int main(int argc, char *argv[])
         int word_count = atoi(buffer);
         printf("Word count: %d\n", word_count);
 
-//        m = recv(sockfd, buffer, BUF_SIZE, 0);
-//        if (m < 0)
-//        {
-//            perror("recv");
-//            return EXIT_FAILURE;
-//        }
-//        buffer[m] = '\0';
-//        printf("Server: %s", buffer);
     }
 
     close(sockfd);

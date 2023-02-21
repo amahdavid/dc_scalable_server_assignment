@@ -10,7 +10,6 @@
 #include <dc_posix/dc_unistd.h>
 
 #define BUFFER_SIZE 1024
-#define NUM_THREADS 10
 
 void *test_thread(void *arg);
 
@@ -56,23 +55,6 @@ int main(int argc, char *argv[]) {
     start_time = time(NULL);
     while (difftime(time(NULL), start_time) < test_duration) {
         // Create a thread to send data to the server
-
-        // chatgpt suggest we create a fixed number of threads to the server
-        /*pthread_t threads[NUM_THREADS];
-        for (int i = 0; i < NUM_THREADS; ++i) {
-            if (pthread_create(&threads[i], NULL, test_thread, (void *)fp) != 0){
-                perror("Unable to create test thread");
-                fclose(fp);
-                return -1;
-            }
-        }
-        // wait for all threads to finish
-        for (int i = 0; i < NUM_THREADS; ++i) {
-            pthread_join(threads[i], NULL);
-        }
-
-        fclose(fp);*/
-
         pthread_t thread;
         if (pthread_create(&thread, NULL, test_thread, (void *) buffer) != 0) {
             perror("Unable to create test thread");
